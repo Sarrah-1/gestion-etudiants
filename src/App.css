@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eef1f5;
+  color: #222222;
+}
+
+.carte {
+  max-width: 720px;
+  margin: 30px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 24px;
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+  padding: 10px 0;
+}
+
+.stats div {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats span {
+  color: #666666;
+  font-size: 14px;
+}
+
+.stats strong {
+  font-size: 20px;
+}
+
+.champs {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input[type='text'],
+input[type='number'] {
+  padding: 10px 14px;
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+  flex: 1;
+  min-width: 140px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 20px;
+  background-color: #2c3e50;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1b2836;
+}
+
+button.supprimer {
+  margin: 0;
+  padding: 6px 12px;
+  background-color: #e74c3c;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.erreur {
+  color: #e74c3c;
+  font-size: 14px;
+}
+
+.vide {
+  color: #777777;
+}
